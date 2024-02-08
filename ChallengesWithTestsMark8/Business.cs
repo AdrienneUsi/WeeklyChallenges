@@ -7,5 +7,6 @@ namespace ChallengesWithTestsMark8
         public double TotalRevenue { get; set; }
         public double TotalExpenses { get; set; }
         public Business ParentCompany { get; set; }
+        public int Revenue { get; internal set; }
     }
 }

@@ -90,7 +90,7 @@ namespace ChallengesWithTestsMark8.Tests
             ChallengesSet01 challenger = new ChallengesSet01();
 
             // Act
-            int actual = challenger.GetSmallestNumber(number1, number2);
+            int actual = ChallengesSet01.GetSmallestNumber(number1, number2);
 
             // Assert
             Assert.Equal(expected, actual);
